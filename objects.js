@@ -5,3 +5,8 @@ function updatePlaylist(playlist, artistName, songTitle) {
   playlist['My Bloody Valentine'] = 'Sometimes';
   return playlist;
 }
+
+function removeFromPlaylist( playlist, artistName) {
+  delete playlist.Slowdive;
+  return playlist;
+}
